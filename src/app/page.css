@@ -1,0 +1,28 @@
+/* App and Main Content Styles */
+.App {
+    display: flex;
+    min-height: 100vh;
+    padding-top: 60px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f5f7f9;
+    overflow-y: auto;
+    margin-left: 300px;
+}
+
+.main-content h1 {
+    padding: 0 20px;
+}
+
+.main-header {
+    display: flex;
+}
+
+.main-header P {
+    padding: 12px;
+}
+
+

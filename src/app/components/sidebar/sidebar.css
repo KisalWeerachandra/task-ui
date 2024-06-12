@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    width: 300px;
+    height: 100vh;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    position: fixed;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user-details {
+    text-align: center;;
+}
+
+.user-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.user-id {
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+.nav-menu {
+    width: 100%;
+}
+
+.nav-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-item {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.nav-item a {
+    display: block;
+    padding: 15px 30px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border-radius: 10px; /* Curved radius */
+    margin: 0 10px; /* Gap from both sides */
+}
+
+.nav-item a:hover, .nav-item.active a {
+    background-color: #006962;
+    color: #fff;
+}
+
+.nav-icon {
+    margin-right: 10px; /* Space between icon and text */
+    font-size: 20px;
+    vertical-align: middle; /* Align icon vertically in the middle */
+}
+
+/* .nav-icon a:hover, .nav-icon.active a {
+    background-color: #006962;
+    color: #fff;
+} */

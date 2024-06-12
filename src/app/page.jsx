@@ -1,8 +1,8 @@
 import React from 'react'
 import './page.css'
-import Sidebar from './components/sidebar/sidebar'
+import Sidebar from './components/sidebar/Sidebar'
 import DashboardBoxes from './components/dashboardBoxes/DashboardBoxes'
-import ServiceDetails from './components/serviceDetails/serviceDetails'
+import ServiceDetails from './components/serviceDetails/ServiceDetails'
 
 const page = () => {
   return (

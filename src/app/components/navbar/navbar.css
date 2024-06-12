@@ -5,12 +5,11 @@ body {
 }
 
 .navbar {
-    position: fixed; /* Ensure navbar stays at the top */
+    position: fixed; 
     top: 0;
     left: 0;
     right: 0;
     z-index: 2;
-    /* Delete above */
     display: flex;
     justify-content: space-between;
     align-items: center;

@@ -4,3 +4,8 @@
   margin: 0;
 }
 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f6f9fb; /* Common background */
+  color: #000000; /* Common text color */
+}

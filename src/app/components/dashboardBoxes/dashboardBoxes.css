@@ -1,0 +1,65 @@
+.dashboard-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.box {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    width: 18%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+}
+
+.box-icon {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+
+.box-count {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+.icon-briefcase {
+    color: rgb(248, 162, 2);
+    font-size: 48px;
+}
+
+.icon-sun {
+    color: rgb(248, 162, 2);
+    font-size: 48px;
+}
+
+.icon-plug {
+    color: blue;
+    font-size: 48px;
+}
+
+.icon-fan {
+    color: cyan;
+    font-size: 48px;
+
+}
+
+.icon-solar {
+    color: purple;
+    font-size: 48px;
+    border-radius: 50%;
+}
+
